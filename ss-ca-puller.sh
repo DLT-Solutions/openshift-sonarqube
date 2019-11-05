@@ -7,7 +7,7 @@ set -e
 
 for CERT in \
   www.kenmoini.com:443 \
-  idm.fiercesw.network:636
+  idm.demo-dlt.com:636
 do
   echo "Pulling SSL certificate for ${CERT}..."
   FILENAME=${CERT//":"/".p"}
